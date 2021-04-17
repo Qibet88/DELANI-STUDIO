@@ -13,7 +13,17 @@ body{
 }
 .description{
     text-align: center;
+    line-height: 2.5;
+   
 }
+.services{
+    background-image: url('/assets/backgrounds/s_image.jpg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    line-height: 2.5;
+}
+
 footer{
     align-items: center;
     text-align: center;
