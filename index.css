@@ -59,6 +59,13 @@ footer{
     height: 50px;
     padding: 20px;
 };
-.design-hide{
+.design-show{
+    display: none;
+}
+
+.development-show{
+    display: none;
+}
+productmanagment{
     display: none;
 }
