@@ -1,6 +1,11 @@
 body{
     font-family: 'PT Serif','Noto Sans KR','Rubik', sans-serif;
 }
+.head {
+    text-align: center;
+    position: relative;
+    top: 80px;
+}
 .headerWrapper {
     color: white;
     background-image: url("/assets/backgrounds/h_img.jpg");
@@ -9,14 +14,10 @@ body{
     width: 100%;
 }
 
-.head {
-    text-align: center;
-    position: relative;
-    top: 80px;
-}
 
-#amazing {
-    font-size: xx-small;
+
+#tagLine {
+    font-size: 8pt;
 }
 
 .aboutUs {
@@ -28,6 +29,7 @@ body{
 }
 
 .services {
+    font-weight: 700;
     text-align: center;
     color: white;
     background-size: 1000px;
@@ -37,7 +39,7 @@ body{
 }
 
 #serviceParagraph {
-    font-size: 10pt;
+    font-size: 8pt;
 }
 
 .whatWeDo {
@@ -47,7 +49,13 @@ body{
     
 }
 
-.design, .development, .product {
+.design{
+    display: none;
+} 
+.development{
+    display: none;
+}
+.product {
     display: none;
 }
 
@@ -95,14 +103,11 @@ input {
 
 .footer {
     text-align: center;
-}
-
-.footer>img {
-    margin-right: 20px;
+    height: 50px;
 }
 
 .delani {
-    font-size: small;
+    font-size: 8pt;
 }
 
 .btn {
@@ -136,21 +141,30 @@ input {
         display: flexbox;
       
     }
-    .contact-us {
+    .portfolio {
+        display: flexbox;
+        text-align: center;
+        height: auto;
+    }
+    .portfolio img{
+        height: 120px;
+        width: 150px;
+    }
+    .contactUs {
         text-align: center;
         height: 50vh;
         padding-left: 5px;
         margin-bottom: 20px;
     }
-    .contact-us textarea {
+    .contactUs textarea {
         width: 200px;
         height: 50px
     }
-    .contact-us .name-field {
+    .contactUs .name-field {
         width: 200px;
-        /* height: 100px */
+        
     }
-    .contact-us input,
+    .contactUs input,
     textarea {
         background-color: inherit;
         border: .5px solid white;
@@ -159,13 +173,8 @@ input {
     }
     .row1 div img {
         width: 100%;
-        /* height: 110vh; */
         padding: 5px;
         height: auto;
     }
-    .portfolio {
-        display: flexbox;
-        text-align: center;
-        height: auto;
-    }
+    
 }

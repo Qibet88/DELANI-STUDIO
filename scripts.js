@@ -32,3 +32,16 @@ $(document).ready(function() {
     });
 
 });
+$(document).ready(function() {
+    $("form#myform").submit(function(event) {
+        event.preventDefault();
+        var userName = $("#name").val();
+        var userEmail = $("#email").val();
+        var userMessage = $("#message").val();
+        if (userMessage == " ")
+            alert(userName + ", Please give us your feedback.");
+        else {
+            alert(userName + ", we have received your message. Thank you for reaching out to us");
+        }
+    });
+});
